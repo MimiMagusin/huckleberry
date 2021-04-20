@@ -30,14 +30,22 @@ strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+header {
+  background:  hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  margin-bottom: 64px;
+}
+
 .max-width-wrapper {
-  max-width: 100%;
+  background: hsl(0deg, 0%, 100%);
+  max-width: 1024px;
   margin: auto;
 }
 
 .intro-chunk {
   background: hsl(0deg, 0%, 100%);
-  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  max-width: 75%;
+  padding: 24px 40px;
 }
 
 .title {
@@ -47,10 +55,13 @@ strong {
 .card {
   background: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding: 24px 32px;
 }
 
 .indented-heading {
   background: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-  padding: 24px 0;
+  padding: 24px 40px;
+  margin-left: -40px;
+  max-width: fit-content;
 }
