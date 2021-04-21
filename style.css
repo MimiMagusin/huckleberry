@@ -33,18 +33,18 @@ strong {
 header {
   background:  hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-  margin-bottom: 64px;
+  margin-bottom: 128px;
 }
 
 .max-width-wrapper {
   background: hsl(0deg, 0%, 100%);
-  max-width: 1024px;
+  max-width: 800px;
   margin: auto;
 }
 
 .intro-chunk {
   background: hsl(0deg, 0%, 100%);
-  max-width: 75%;
+  max-width: 400px;
   padding: 24px 40px;
 }
 
@@ -55,7 +55,7 @@ header {
 .card {
   background: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-  padding: 24px 32px;
+  padding: 8px 32px 16px 32px;
 }
 
 .indented-heading {
@@ -63,5 +63,6 @@ header {
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   padding: 24px 40px;
   margin-left: -40px;
+  margin-top: 0;
   max-width: fit-content;
 }
