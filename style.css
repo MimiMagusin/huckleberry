@@ -8,9 +8,13 @@ body {
   margin: 0;
   padding: 0;
   background: hsl(0deg, 0%, 60%);
+  font-size: 1.125rem;
 }
 
 /* Add styles here! */
+h1, h2, h3 {
+  margin: 0;
+}
 
 h1 { 
   font-size: 2rem; 
@@ -44,12 +48,12 @@ header {
 
 .intro-chunk {
   background: hsl(0deg, 0%, 100%);
-  max-width: 400px;
-  padding: 24px 40px;
+  max-width: 500px;
+  padding: 92px 40px;
 }
 
 .title {
-  padding: 32px 0;
+  padding: 64px 0 32px 0;
 }
 
 .card {
